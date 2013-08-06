@@ -1,0 +1,8 @@
+Makefile
+matrixdump*
+*.log-*
+*.err-*
+*.stat
+*.pvtu
+*.vtu
+sphericalShell_*
