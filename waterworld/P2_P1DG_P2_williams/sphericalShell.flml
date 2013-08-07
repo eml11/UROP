@@ -341,7 +341,6 @@
           <discontinuous_galerkin>
             <viscosity_scheme>
               <compact_discontinuous_galerkin/>
-              <tensor_form/>
             </viscosity_scheme>
             <advection_scheme>
               <upwind/>
@@ -435,7 +434,12 @@
     #Re-form coords as list
     X_cartesian = list(X)
     
-    #Assign parameters, look into ADD PAPER CITATION
+    '''
+    Assign parameters, look into
+    David L. Williamson, John B. Drake, James J. Hack, Rüdiger Jakob, Paul N. Swarztrauber, A standard test set for numerical approximations to the shallow water equations in spherical geometry, Journal of Computational Physics, Volume 102, Issue 1, September 1992, Pages 211-224, ISSN 0021-9991, http://dx.doi.org/10.1016/S0021-9991(05)80016-6.
+(http://www.sciencedirect.com/science/article/pii/S0021999105800166)
+    '''
+
     alpha = 0.0
     u_0 = 40.0
     
@@ -462,7 +466,12 @@
     #Re-form coords as list
     X_cartesian = list(X)
     
-    #Assign parameters, look into ADD PAPER CITATION
+    '''
+    Assign parameters, look into
+    David L. Williamson, John B. Drake, James J. Hack, Rüdiger Jakob, Paul N. Swarztrauber, A standard test set for numerical approximations to the shallow water equations in spherical geometry, Journal of Computational Physics, Volume 102, Issue 1, September 1992, Pages 211-224, ISSN 0021-9991, http://dx.doi.org/10.1016/S0021-9991(05)80016-6.
+(http://www.sciencedirect.com/science/article/pii/S0021999105800166)
+    '''
+    
     alpha = 0.0
     u_0 = 40.0
     
@@ -489,7 +498,12 @@
     #Re-form coords as list
     X_cartesian = list(X)
     
-    #Assign parameters, look into ADD PAPER CITATION
+    '''
+    Assign parameters, look into
+    David L. Williamson, John B. Drake, James J. Hack, Rüdiger Jakob, Paul N. Swarztrauber, A standard test set for numerical approximations to the shallow water equations in spherical geometry, Journal of Computational Physics, Volume 102, Issue 1, September 1992, Pages 211-224, ISSN 0021-9991, http://dx.doi.org/10.1016/S0021-9991(05)80016-6.
+(http://www.sciencedirect.com/science/article/pii/S0021999105800166)
+    '''
+    
     alpha = 0.0
     u_0 = 40.0
     
